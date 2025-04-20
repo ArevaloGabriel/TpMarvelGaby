@@ -1,5 +1,9 @@
-package com.unlam.marvel
+package com.unlam.marvel.Data.remote
 
+import com.unlam.marvel.Data.repository.CharactersRepository
+import com.unlam.marvel.Data.model.Character
+import com.unlam.marvel.utils.PRIVATE_KEY
+import com.unlam.marvel.utils.PUBLIC_KEY
 import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
 

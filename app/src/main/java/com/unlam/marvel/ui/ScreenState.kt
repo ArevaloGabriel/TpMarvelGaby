@@ -1,4 +1,6 @@
-package com.unlam.marvel
+package com.unlam.marvel.ui
+
+import com.unlam.marvel.Data.model.Character
 
 sealed class ScreenState {
 

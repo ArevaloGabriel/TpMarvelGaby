@@ -1,7 +1,11 @@
-package com.unlam.marvel
+package com.unlam.marvel.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.unlam.marvel.Data.repository.RetrofitCharactersRepository
+import com.unlam.marvel.Data.remote.CharactersService
+import com.unlam.marvel.Data.remote.MarvelCharactersClient
+import com.unlam.marvel.Data.remote.PublicKeyInterceptor
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

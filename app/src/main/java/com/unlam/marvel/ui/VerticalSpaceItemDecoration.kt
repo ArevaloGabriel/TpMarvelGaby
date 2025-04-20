@@ -1,4 +1,4 @@
-package com.unlam.marvel
+package com.unlam.marvel.ui
 
 import android.graphics.Rect
 import android.view.View
